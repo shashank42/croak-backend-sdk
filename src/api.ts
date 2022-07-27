@@ -1,4 +1,6 @@
-/// <reference path="./custom.d.ts" />
+
+// import * as custom from './custom';
+// / <reference path="./custom.d.ts" />
 // tslint:disable
 /**
  * namaste-be
