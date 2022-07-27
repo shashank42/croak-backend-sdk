@@ -1,6 +1,6 @@
 {
   "name": "croak-backend-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Croak Backend SDK",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
