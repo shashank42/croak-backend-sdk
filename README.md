@@ -1,1 +1,4 @@
-# My Awesome Greeter
+# Docs for Croak SDK
+
+
+https://glip.readme.io/

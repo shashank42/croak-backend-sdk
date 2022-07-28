@@ -1352,7 +1352,7 @@ export interface ResponseCompany {
    * @type {string}
    * @memberof ResponseCompany
    */
-  apiKey: string;
+  apiSecretKey: string;
   /**
    *
    * @type {string}

@@ -1,7 +1,8 @@
 {
   "name": "croak-backend-sdk",
   "version": "1.0.2",
-  "description": "Croak Backend SDK",
+  "description": "OpenAPI client for croak-backend-sdk",
+  "author": "sh0x",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -29,7 +30,6 @@
     "Crypto",
     "Wallet"
   ],
-  "author": "sh0x",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/shashank42/croak-backend-sdk/issues"
