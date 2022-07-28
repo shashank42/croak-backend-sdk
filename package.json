@@ -1,0 +1,54 @@
+{
+  "name": "croak-backend-sdk",
+  "version": "6.9.0",
+  "description": "OpenAPI client for croak-backend-sdk",
+  "author": "OpenAPI-Generator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashank42/croak-backend-sdk.git"
+  },
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "module": "./dist/esm/index.js",
+  "sideEffects": false,
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashank42/croak-backend-sdk/issues"
+  },
+  "homepage": "https://github.com/shashank42/croak-backend-sdk#readme",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc && tsc -p tsconfig.esm.json",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+
+  },
+  "keywords": [
+    "Non-fungible token",
+    "NFT",
+    "Minting",
+    "Ethereum",
+    "BAYC",
+    "Digital art",
+    "Crypto",
+    "Wallet"
+  ],
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.6.1",
+    "jest": "^28.1.3",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.7",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.7.4"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}

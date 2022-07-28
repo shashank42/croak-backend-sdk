@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "strict": true,
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "strictPropertyInitialization": false,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    "**/__tests__/*"
+  ],
+  "include": ["src"],
+  "types": ["node", "node-global-url"]
+}
