@@ -1,6 +1,6 @@
 {
   "name": "croak-backend-sdk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "OpenAPI client for croak-backend-sdk",
   "author": "sh0x",
   "main": "lib/index.js",
