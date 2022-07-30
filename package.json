@@ -1,6 +1,6 @@
 {
   "name": "croak-backend-sdk",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "OpenAPI client for croak-backend-sdk",
   "author": "OpenAPI-Generator",
   "repository": {
@@ -26,7 +26,6 @@
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
-
   },
   "keywords": [
     "Non-fungible token",
