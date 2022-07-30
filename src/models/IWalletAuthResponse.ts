@@ -43,6 +43,12 @@ export interface IWalletAuthResponse {
    * @memberof IWalletAuthResponse
    */
   refreshToken: string;
+  /**
+   *
+   * @type {boolean}
+   * @memberof IWalletAuthResponse
+   */
+  isLinked: boolean;
 }
 
 /**
@@ -54,6 +60,7 @@ export function instanceOfIWalletAuthResponse(value: object): boolean {
   isInstance = isInstance && 'email' in value;
   isInstance = isInstance && 'accessToken' in value;
   isInstance = isInstance && 'refreshToken' in value;
+  isInstance = isInstance && 'isLinked' in value;
 
   return isInstance;
 }
@@ -71,6 +78,7 @@ export function IWalletAuthResponseFromJSONTyped(json: any, ignoreDiscriminator:
     email: json['email'],
     accessToken: json['accessToken'],
     refreshToken: json['refreshToken'],
+    isLinked: json['isLinked'],
   };
 }
 
@@ -86,5 +94,6 @@ export function IWalletAuthResponseToJSON(value?: IWalletAuthResponse | null): a
     email: value.email,
     accessToken: value.accessToken,
     refreshToken: value.refreshToken,
+    isLinked: value.isLinked,
   };
 }
